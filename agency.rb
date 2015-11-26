@@ -3,7 +3,7 @@ require_relative 'curlers.rb'
 
 class Agency
 
-  attr_reader :male_player, :female_array
+  attr_reader :male_player, :female_array, :male_name, :female_name
 
   def initialize
     @male_array = []
@@ -51,18 +51,45 @@ class Agency
     @female_array.sort! {|x,y| x.prof <=>y.prof}
   end
 
-  def create_teams
-    team_array = []
+  def team_to_s (n)
     i=0
-    while i<@male_array.size
-      team_array.push(@male_array[0])
+    output = ''
+
+    while i<n do
+      output.concat(@male_name[i].to_s)
+      output.concat("\n")
       i+=1
     end
-    team_array
+    output.chomp
+
+    i=0
+    output = ''
+
+    while i<n do
+      output.concat(@female_name[i].to_s)
+      output.concat("\n")
+      i+=1
+    end
+    output.chomp
   end
 
-  def team_to_s
-    
+  def create_teams
+    @male_name = []
+    @female_name = []
+    @male_array.each do |male|
+        male_name.push(male.name)
+    end
+    @female_array.each do |female|
+      female_name.push(female.name)
+    end
+  end
+
+  def each_curler
+    proficiency = 0
+     @male_array.each do |x|
+       proficiency = proficiency + x.prof
+     end
+    proficiency
   end
 end
 
