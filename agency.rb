@@ -71,12 +71,19 @@ class Agency
     puts "#{@male_name}"
   end
 
-  def each_curler
-    proficiency = 0
+  def each_curler (n)
+    elite_curlers = []
      @male_array.each do |x|
-       proficiency = proficiency + x.prof
+       if x.prof == n
+         elite_curlers.push(x.name)
+       end
      end
-    proficiency
+       @female_array.each do |y|
+         if y.prof == n
+           elite_curlers.push(y.name)
+         end
+        end
+      elite_curlers
   end
 end
 

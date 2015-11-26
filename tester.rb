@@ -19,4 +19,16 @@ class Tester < Test::Unit::TestCase
   def test_to_s
     assert_equal("Niall's proficiency is: 10. Seeks partner with proficiency >= 10", @curlers.to_s)
   end
+
+  def test_agency_to_s_male
+    assert_equal("Luke's proficiency is: 6. Seeks partner with proficiency >= 5\nMike's proficiency is: 5. Seeks partner with proficiency >= 7\nBob's proficiency is: 2. Seeks partner with proficiency >= 1\nJohn's proficiency is: 10. Seeks partner with proficiency >= 5\nSean's proficiency is: 4. Seeks partner with proficiency >= 4", @curler_att.to_s_male)
+  end
+
+  def test_agency_to_s_female
+    assert_equal("Michelle's proficiency is: 8. Seeks partner with proficiency >= 8\nLucy's proficiency is: 7. Seeks partner with proficiency >= 9\nPatricia's proficiency is: 10. Seeks partner with proficiency >= 4\nAlice's proficiency is: 6. Seeks partner with proficiency >= 3\nMary's proficiency is: 5. Seeks partner with proficiency >= 5", @curler_att.to_s_female)
+  end
+
+  def test_each_curler
+    assert_equal(["John", "Patricia"], @curler_att.each_curler(10))
+  end
 end

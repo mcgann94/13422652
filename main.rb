@@ -14,4 +14,4 @@ agency.sort_female!
 puts "The partners of the men side are:\n#{agency.create_teams}\nand the females\n#{agency.create_f_teams}"
 puts "They are matched respectively, ie Bob, Mary etc.."
 puts "\nQuestion 3:\n"
-puts "Total proficicency of all male players = #{agency.each_curler}"
+puts  "The elite curlers with proficiency 10 are:#{agency.each_curler(10)}"
