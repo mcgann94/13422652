@@ -4,7 +4,6 @@
     <list default="true" id="c58b2016-c0db-435a-a90b-e6591731a558" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/agency.rb" afterPath="$PROJECT_DIR$/agency.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.rb" afterPath="$PROJECT_DIR$/main.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tester.rb" afterPath="$PROJECT_DIR$/tester.rb" />
     </list>
     <ignored path="13422652.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -19,8 +18,8 @@
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/13422652@agency.coverage" NAME="agency Coverage Results" MODIFIED="1448564432767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="13422652" />
-    <SUITE FILE_PATH="coverage/13422652@tester.coverage" NAME="tester Coverage Results" MODIFIED="1448570690511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="13422652" />
-    <SUITE FILE_PATH="coverage/13422652@main.coverage" NAME="main Coverage Results" MODIFIED="1448570696159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="13422652" />
+    <SUITE FILE_PATH="coverage/13422652@tester.coverage" NAME="tester Coverage Results" MODIFIED="1448571500170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="13422652" />
+    <SUITE FILE_PATH="coverage/13422652@main.coverage" NAME="main Coverage Results" MODIFIED="1448571493401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="13422652" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -51,11 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="agency.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="agency.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/agency.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7071583">
-              <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="69" column="16" selection-start-line="69" selection-start-column="16" selection-end-line="69" selection-end-column="16" />
               <folding>
                 <element signature="e#117#498#0" expanded="false" />
                 <element signature="e#502#681#0" expanded="false" />
@@ -64,8 +63,8 @@
                 <element signature="e#946#1017#0" expanded="false" />
                 <element signature="e#1021#1152#0" expanded="false" />
                 <element signature="e#1156#1299#0" expanded="false" />
-                <element signature="e#1303#1348#0" expanded="false" />
-                <element signature="e#1352#1647#0" expanded="false" />
+                <element signature="e#1303#1359#0" expanded="false" />
+                <element signature="e#1363#1658#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -75,16 +74,16 @@
         <entry file="file://$PROJECT_DIR$/main.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tester.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="tester.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tester.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="0.60954446">
               <caret line="27" column="342" selection-start-line="27" selection-start-column="342" selection-end-line="27" selection-end-column="342" />
               <folding />
             </state>
@@ -117,9 +116,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/curlers.rb" />
-        <option value="$PROJECT_DIR$/main.rb" />
-        <option value="$PROJECT_DIR$/agency.rb" />
         <option value="$PROJECT_DIR$/tester.rb" />
+        <option value="$PROJECT_DIR$/agency.rb" />
+        <option value="$PROJECT_DIR$/main.rb" />
       </list>
     </option>
   </component>
@@ -186,7 +185,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../College/Year 3/OOP/Assignment3/Ass-3-practise" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
-  <component name="RunManager" selected="Ruby.main">
+  <component name="RunManager" selected="Ruby.tester">
     <configuration default="false" name="main" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="13422652" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -379,8 +378,8 @@
     </list>
     <recent_temporary>
       <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Ruby.main" />
-        <item index="1" class="java.lang.String" itemvalue="Ruby.tester" />
+        <item index="0" class="java.lang.String" itemvalue="Ruby.tester" />
+        <item index="1" class="java.lang.String" itemvalue="Ruby.main" />
         <item index="2" class="java.lang.String" itemvalue="Ruby.agency" />
       </list>
     </recent_temporary>
@@ -467,8 +466,8 @@
             <element signature="e#946#1017#0" expanded="false" />
             <element signature="e#1021#1152#0" expanded="false" />
             <element signature="e#1156#1299#0" expanded="false" />
-            <element signature="e#1303#1348#0" expanded="false" />
-            <element signature="e#1352#1647#0" expanded="false" />
+            <element signature="e#1303#1359#0" expanded="false" />
+            <element signature="e#1363#1658#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -517,8 +516,8 @@
             <element signature="e#946#1017#0" expanded="false" />
             <element signature="e#1021#1152#0" expanded="false" />
             <element signature="e#1156#1299#0" expanded="false" />
-            <element signature="e#1303#1348#0" expanded="false" />
-            <element signature="e#1352#1647#0" expanded="false" />
+            <element signature="e#1303#1359#0" expanded="false" />
+            <element signature="e#1363#1658#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -547,14 +546,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/women_curlers.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/men_curlers.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -563,26 +554,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tester.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="342" selection-start-line="27" selection-start-column="342" selection-end-line="27" selection-end-column="342" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/agency.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7071583">
-          <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="69" column="16" selection-start-line="69" selection-start-column="16" selection-end-line="69" selection-end-column="16" />
           <folding>
             <element signature="e#117#498#0" expanded="false" />
             <element signature="e#502#681#0" expanded="false" />
@@ -591,9 +566,33 @@
             <element signature="e#946#1017#0" expanded="false" />
             <element signature="e#1021#1152#0" expanded="false" />
             <element signature="e#1156#1299#0" expanded="false" />
-            <element signature="e#1303#1348#0" expanded="false" />
-            <element signature="e#1352#1647#0" expanded="false" />
+            <element signature="e#1303#1359#0" expanded="false" />
+            <element signature="e#1363#1658#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/women_curlers.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tester.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.60954446">
+          <caret line="27" column="342" selection-start-line="27" selection-start-column="342" selection-end-line="27" selection-end-column="342" />
+          <folding />
         </state>
       </provider>
     </entry>

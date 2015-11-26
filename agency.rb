@@ -68,7 +68,7 @@ class Agency
   end
 
   def teams_to_s
-    puts "#{@male_name}"
+    "#{@male_name} #{@female_name}"
   end
 
   def each_curler (n)
@@ -87,3 +87,15 @@ class Agency
   end
 end
 
+=begin
+    team_array = []
+    @male_array.each do |x|
+      @female_array.each do |y|
+        if x.prof >= y.prof
+          team_array.push(y.name)
+        end
+      end
+      team_array.push(x.name)
+    end
+    team_array
+=end
