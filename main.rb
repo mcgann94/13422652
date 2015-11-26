@@ -7,3 +7,7 @@ agency = Agency.new
 puts "QUESTION 1\n"
 puts "\nMALE CURLERS:\n#{agency.to_s_male}"
 puts "\nFEMALE CURLERS:\n#{agency.to_s_female}"
+agency.sort_male!
+agency.sort_female!
+
+puts "#{agency.create_teams}"

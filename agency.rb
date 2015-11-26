@@ -3,7 +3,7 @@ require_relative 'curlers.rb'
 
 class Agency
 
-  attr_reader :male_player, :female_array, :team_array
+  attr_reader :male_player, :female_array
 
   def initialize
     @male_array = []
@@ -43,18 +43,22 @@ class Agency
     output.chomp
   end
 
+  def sort_male!
+    @male_array.sort! {|a,b| a.prof <=> b.prof}
+  end
+
+  def sort_female!
+    @female_array.sort! {|x,y| x.prof <=> y.prof}
+  end
+
   def create_teams
-    best_female = ''
-    best_male = ''
+    team_array = []
     @male_array.each do |male|
       @female_array.each do |female|
-        if female.prof >= male.exp_prof
-          best_female.push(female.name)
-          best_male.push(male.name)
+          @team_array.push(male.name, female.name)
         end
-      end
     end
-    puts "#{best_male}"
-    puts "#{best_female}"
+    team_array
   end
 end
+
