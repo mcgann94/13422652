@@ -51,37 +51,24 @@ class Agency
     @female_array.sort! {|x,y| x.prof <=>y.prof}
   end
 
-  def team_to_s (n)
-    i=0
-    output = ''
-
-    while i<n do
-      output.concat(@male_name[i].to_s)
-      output.concat("\n")
-      i+=1
-    end
-    output.chomp
-
-    i=0
-    output = ''
-
-    while i<n do
-      output.concat(@female_name[i].to_s)
-      output.concat("\n")
-      i+=1
-    end
-    output.chomp
-  end
-
   def create_teams
     @male_name = []
-    @female_name = []
     @male_array.each do |male|
-        male_name.push(male.name)
+        @male_name.push(male.name)
     end
+    @male_name
+  end
+
+  def create_f_teams
+    @female_name = []
     @female_array.each do |female|
-      female_name.push(female.name)
+      @female_name.push(female.name)
     end
+    @female_name
+  end
+
+  def teams_to_s
+    puts "#{@male_name}"
   end
 
   def each_curler
