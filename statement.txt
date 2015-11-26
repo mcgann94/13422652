@@ -1,0 +1,10 @@
+Niall McGann - 13422652
+
+I have fully achieved part 1.
+I have made progress in part 2 however I dont feel it is
+correct what I have done and it's incomplete.
+I have fully completed part 3 where it takes in all of
+the curlers and depending on the list you want to display,
+displays the elite curlers with efficiency 10.(I made it 10 in testing)
+I didnt get a chance to attempt q4 as my part 2 wasnt correct. I
+have a fair idea of how I would go about it though.
