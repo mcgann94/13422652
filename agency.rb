@@ -9,6 +9,6 @@ class Agency
   end
 
   def to_s
-    "#{@name}, #{@prof}, #{@exp_prof}"
+    "#{@name}'s proficiency is: #{@prof}. Seeks partner with proficiency >= #{@exp_prof}"
   end
 end
