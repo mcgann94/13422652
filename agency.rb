@@ -48,17 +48,21 @@ class Agency
   end
 
   def sort_female!
-    @female_array.sort! {|x,y| x.prof <=> y.prof}
+    @female_array.sort! {|x,y| x.prof <=>y.prof}
   end
 
   def create_teams
     team_array = []
-    @male_array.each do |male|
-      @female_array.each do |female|
-          @team_array.push(male.name, female.name)
-        end
+    i=0
+    while i<@male_array.size
+      team_array.push(@male_array[0])
+      i+=1
     end
     team_array
+  end
+
+  def team_to_s
+    
   end
 end
 
